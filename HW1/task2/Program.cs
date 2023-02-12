@@ -6,15 +6,11 @@ Console.Write("Number#2: ");
 int number2=Convert.ToInt16(Console.ReadLine());
 if (number1>number2)
 {
-Console.Write("Maximum: ");
-Console.WriteLine(number1);
-Console.Write("Minimum: ");
-Console.WriteLine(number2);
+Console.WriteLine("Maximum: "+number1);
+Console.WriteLine("Minimum: "+number2);
 }
 else
 {
-Console.Write("Maximum: ");
-Console.WriteLine(number2);
-Console.Write("Minimum: ");
-Console.WriteLine(number1); 
+Console.WriteLine("Maximum: "+number2);
+Console.WriteLine("Minimum: "+number1); 
 }
